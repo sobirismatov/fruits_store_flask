@@ -197,6 +197,18 @@
             "quantity": 10,
             "price": 2.5,
             "type": "grain"
+        },
+        "34": {
+            "name": "melon",
+            "quantity": 10,
+            "price": 4.8,
+            "type": "fruit"
+        },
+        "35": {
+            "name": "strawberry",
+            "quantity": 10,
+            "price": 4.8,
+            "type": "fruit"
         }
     }
 }
