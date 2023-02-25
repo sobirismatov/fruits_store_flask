@@ -14,32 +14,55 @@ The objective of this project is to create a web app that allows users to view a
 
 ```json
 {
-    "grocery": [
-        {
+    "grocery": {
+        "1": {
             "name": "Apple",
             "quantity": 2,
             "price": 2.4,
             "type": "fruit"
         },
-        {
+        "2": {
             "name": "Milk",
             "quantity": 1,
             "price": 2.5,
             "type": "dairy"
         },
-        {
-            "name": "Carrot",
-            "quantity": 2,
+        "4": {
+            "name": "Bread",
+            "quantity": 1,
             "price": 1.5,
-            "type": "vegetable"
+            "type": "bakery"
+        },
+        "5": {
+            "name": "Chicken",
+            "quantity": 2,
+            "price": 2.5,
+            "type": "meat"
+        },
+        "6": {
+            "name": "Coffee",
+            "quantity": 2,
+            "price": 2.5,
+            "type": "grain"
         }
-        
-    ]
+    }
 }
 ```
 
-we have a grocery list that contains **fruits, vegetables** and **dairy** products. We want to create a web app that allows users to view a list of fruits and add new fruits to the list.
+## Grocery item properties
 
+- [ ] `name` - the name of the fruit.
+- [ ] `quantity` - the quantity of the fruit.
+- [ ] `price` - the price of the fruit.
+- [ ] `type` - the type of the fruit.
+
+types of grocery items:
+
+- `fruit`
+- `dairy`
+- `bakery`
+- `meat`
+- `grain`
 
 ## GroceryDB - database class
 
