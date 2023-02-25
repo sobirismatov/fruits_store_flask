@@ -5,7 +5,7 @@ class FruitDB:
         self.db = tinydb.TinyDB('fruitDB.json',indent=4, separators=(',', ': '))
         self.table = self.db.table('fruit')
 
-    def add(self, fruit):
+    def add(self, fruit: dict):
         '''Add a fruit to the database
         
         Args:
