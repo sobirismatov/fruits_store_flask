@@ -21,21 +21,21 @@ def add_grocery():
 
 
 # view all grocery by type
-@app.route('/grocery/<type>')
+@app.route('/grocery/type/<type>')
 def all_grocery_by_type(type):
     """Get all grocery by type"""
     pass
 
 
 # view all grocery by name
-@app.route('/grocery/<name>')
+@app.route('/grocery/name/<name>')
 def all_grocery_by_name(name):
     """Get all grocery by name"""
     pass
 
 
 # view all grocery by price
-@app.route('/grocery/<price>')
+@app.route('/grocery/price/<float:price>')
 def all_grocery_by_price(price):
     """Get all grocery by price"""
     pass

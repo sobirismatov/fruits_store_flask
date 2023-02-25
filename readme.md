@@ -79,6 +79,6 @@ for this project we will use a database class to store our data. The database cl
 
 - [ ] GET `/grocery` - this endpoint will display a list of fruits.
 - [ ] POST `/grocery/add` - this endpoint will display a form that allows users to add new fruits to the list.
-- [ ] GET `/grocery/<type>` - this endpoint will display a list of fruits by specifying the fruit type in the URL.
-- [ ] GET `/grocery/<name>` - this endpoint will display a list of fruits by specifying the fruit name in the URL.
-- [ ] GET `/grocery/<price>` - this endpoint will display a list of fruits by specifying the fruit price in the URL.
+- [ ] GET `/grocery/type/<type>` - this endpoint will display a list of fruits by specifying the fruit type in the URL.
+- [ ] GET `/grocery/name/<name>` - this endpoint will display a list of fruits by specifying the fruit name in the URL.
+- [ ] GET `/grocery/price/<price>` - this endpoint will display a list of fruits by specifying the fruit price in the URL.
