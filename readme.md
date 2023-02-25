@@ -38,7 +38,7 @@ The objective of this project is to create a web app that allows users to view a
 }
 ```
 
-we have a grocery list that contains *fruits, vegetables and dairy* products. We want to create a web app that allows users to view a list of fruits and add new fruits to the list.
+we have a grocery list that contains **fruits, vegetables** and **dairy** products. We want to create a web app that allows users to view a list of fruits and add new fruits to the list.
 
 
 ## GroceryDB - database class
