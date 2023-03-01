@@ -19,10 +19,10 @@ def home():
     <h1>Fruits Web App</h1>
     
     <ul>
-    <li><a href="http://127.0.0.1:5000/grocery/grocery">Grocery</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/type/fruit">Type</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/name/apple">Name</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/price/2.4">price</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/grocery">Grocery</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/fruit">Type</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/apple">Name</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/2.4">price</a></li>
     </ul>
     </html>
     '''
@@ -58,10 +58,10 @@ def all_grocery():
                 <th>type</th>
             </tr>
     <ul>
-    <li><a href="http://127.0.0.1:5000/grocery/grocery">Grocery</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/type/fruit">Type</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/name/apple">Name</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/price/2.4">price</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/grocery">Grocery</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/fruit">Type</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/apple">Name</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/2.4">price</a></li>
     </ul>    
     '''  
     for grocery in db.all() :
@@ -118,17 +118,17 @@ def all_grocery_by_type(type):
                 <th>type</th>
             </tr> 
     <ul>
-    <li><a href="http://127.0.0.1:5000/grocery/grocery">Grocery</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/type/fruit">Type</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/grocery">Grocery</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/fruit">Type</a></li>
        <ol>
-       <li><a href="http://127.0.0.1:5000/grocery/type/fruit">fruit</a></li>
-       <li><a href="http://127.0.0.1:5000/grocery/type/dairy">dairy</a></li>
-       <li><a href="http://127.0.0.1:5000/grocery/type/bakery">bakery</a></li>
-       <li><a href="http://127.0.0.1:5000/grocery/type/meat">meat</a></li>
-       <li><a href="http://127.0.0.1:5000/grocery/type/grain">grain</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/fruit">fruit</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/dairy">dairy</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/bakery">bakery</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/meat">meat</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/grain">grain</a></li>
        </ol>
-    <li><a href="http://127.0.0.1:5000/grocery/name/apple">Name</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/price/2.4">price</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/apple">Name</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/2.4">price</a></li>
     </ul>    
     '''  
     for fruit in db.get_by_type(type=type) :
@@ -178,15 +178,15 @@ def all_grocery_by_name(name):
                 <th>type</th>
             </tr> 
             <ul>
-    <li><a href="http://127.0.0.1:5000/grocery/grocery">Grocery</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/type/fruit">Fruit</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/name/apple">Name</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/grocery">Grocery</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/fruit">Fruit</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/apple">Name</a></li>
        <ol>
-       <li><a href="http://127.0.0.1:5000/grocery/name/Chicken">Chicken</a></li>
-       <li><a href="http://127.0.0.1:5000/grocery/name/melon">melon</a></li>
-       <li><a href="http://127.0.0.1:5000/grocery/name/Tomato">Tomato</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/Chicken">Chicken</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/melon">melon</a></li>
+       <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/Tomato">Tomato</a></li>
        </ol>
-    <li><a href="http://127.0.0.1:5000/grocery/price/2.4">price</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/2.4">price</a></li>
     </ul>    
     '''  
     for fruit in db.get_by_name(name=name) :
@@ -234,15 +234,15 @@ def all_grocery_by_price(price):
                 <th>type</th>
             </tr>  
             <ul>
-    <li><a href="http://127.0.0.1:5000/grocery/grocery">Grocery</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/type/fruit">Fruit</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/name/apple">Name</a></li>
-    <li><a href="http://127.0.0.1:5000/grocery/price/2.4">price</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/grocery">Grocery</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/type/fruit">Fruit</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/name/apple">Name</a></li>
+    <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/2.4">price</a></li>
       <ol>
-      <li><a href="http://127.0.0.1:5000/grocery/price/2.4">price 2.4</a></li>
-      <li><a href="http://127.0.0.1:5000/grocery/price/4.8">price 4.8</a></li>
-      <li><a href="http://127.0.0.1:5000/grocery/price/2.5">price 2.5</a></li>
-      <li><a href="http://127.0.0.1:5000/grocery/price/1.5">price 1.5</a></li>
+      <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/2.4">price 2.4</a></li>
+      <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/4.8">price 4.8</a></li>
+      <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/2.5">price 2.5</a></li>
+      <li><a href="https://ismatovsobir.pythonanywhere.com/grocery/price/1.5">price 1.5</a></li>
       </ol<
       
     </ul>   
